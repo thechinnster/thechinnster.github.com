@@ -1,0 +1,1 @@
+This is a blog generated with Jekyll and hosted at [benchinn.com/blog](http://benchinn.com/blog). It was initially created using a fork of [Bruce Williams'](https://github.com/bruce) jekyll blog which he has since moved to Tumblr and no longer seems to have listed on github.
