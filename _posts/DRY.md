@@ -12,7 +12,7 @@ Wouldn't it be great if our own minds worked in the same way?  If we only had to
 
 Central to GTD is the idea that there is a single point of capture: the inbox.  Any idea, to do item, reference material gets captured in the inbox.  Once the inbox is processed each of these gets represented as a single entity in the appropriate list or folder.  Tasks get captured as single list items for the appropriate context.  There is a single next action for any given project.
 
-The pattern here is that everything in the system is singular and unambiguous.  This has its strengths and drawbacks.  One drawback is that contexts themselves may not be unambiguous.  Some tasks may only be done on your computer at the office whereas others can be tackled there or on your home computer or your iPad.  
+The pattern here is that everything in the system is singular and unambiguous.  This has its strengths and drawbacks.  One drawback is that contexts themselves may not be unambiguous.  Some tasks may only be done on your computer at the office whereas others can be tackled there or on your home computer or your iPad.  That's a small downside.  The upside is that at any particular time and place there's only one thing to be done: the next action for that context.  Not 27 priorities[LINK], but one task.  I doubt it's possible to reach that level.  Certainly I'm not sure what the most important thing to do is most of the time.  But knowing that there could be a single next action and trying to find it: that gives me hope.
 
 [1]: http://en.wikipedia.org/wiki/Don%27t_repeat_yourself 
 [2]: http://www.davidco.com/ "David Allen, Getting Things Done and GTD"
