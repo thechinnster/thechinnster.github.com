@@ -1,0 +1,7 @@
+---
+layout: post
+date: 2011-09-27
+title: Terminal in a Good Way
+published: false
+---
+
