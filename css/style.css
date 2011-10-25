@@ -6,7 +6,7 @@ body {
 }
 
 #wrapper {
-	background-color:#FFF;
+	background-color:#eee;
 }
 
 hr.cleaner {
@@ -19,9 +19,8 @@ visibility:hidden;
 }
 
 div#container {
-  width: 920px;
+  width: 800px;
   margin: 0 auto;
-background-color:#fff;
 position:relative;
   }
 
@@ -35,10 +34,10 @@ border-bottom:1px dotted #666;
 #content {
 	float:left;
 	width: 640px;
-	margin-left:60px;
+	margin-left:20px;
 }
 
-#sidebar {width: 220px; float:right;}
+#sidebar {width: 100px; float:right;}
 
 nav#pagination {
 	margin-bottom:10px;
@@ -51,6 +50,9 @@ figcaption {
 
 article {
 	margin: 0 0 36px;
+	background-color:#FFF;
+	padding: 20px;
+	border: 1px solid #ccc;
 }
 
 p#tag {
@@ -103,7 +105,11 @@ footer {
 	border-top:1px solid #ccc; 
 	display:block; 
 	padding: 18px;
-	background-color:#eee;
+	background-color:#ccc;	
+  -webkit-box-shadow: 0px -5px 4px #666; 
+     -moz-box-shadow: 0px -5px 4px #666; 
+          box-shadow: 0px -5px 4px #666; 
+
 	}
 	
 footer a {
@@ -120,17 +126,35 @@ footer a {
 
 .hanger {
 	float:left;
-	margin: 2px 0 0 -100px;
+	margin: 0 0 0 -105px;
 	text-align:left;
-	width: 100px;
+	width: 90px;
 	font-size:.9em;
 	line-height:2.1em;
+	background-color:#0970B2;
+	color: #fff;
 }
 
 .hanger a {
-	color:#666;
+	display:block;;
+	color: #fff;
 	text-decoration:none;
+	padding-left:10px;
+	border-left:2px solid #a0221f;
 }
+
+/*ARROW?*/
+/*.hanger a:after {
+	width: 10px;
+	height: 10px;
+	content:"";
+	display:inline;;
+	color: #fff;
+	text-decoration:none;
+	border-left:10px solid #a0221f;
+}
+*/
+
 
 #linkies {
 	float:right;
