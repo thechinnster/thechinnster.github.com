@@ -5,10 +5,6 @@ body {
 	background-color:#eee;
 }
 
-#wrapper {
-	background-color:#FFF;
-}
-
 hr.cleaner {
 border:medium none;
 clear:both;
@@ -19,29 +15,37 @@ visibility:hidden;
 }
 
 div#container {
-  width: 920px;
+  width: 640px;
   margin: 0 auto;
-background-color:#fff;
 position:relative;
   }
 
-#benTop {
-position:relative;
-padding-top:2em;
-margin: 0 0 2em 60px;
-border-bottom:1px dotted #666;
-}
-
-#content {
-	float:left;
+header {
+	position:relative;
+	padding-top:2em;
+	color: #ddd;
 	width: 640px;
-	margin-left:60px;
+	margin: 0 auto 0 auto;
+	padding-bottom:2em;
 }
 
-#sidebar {width: 220px; float:right;}
+#top {
+	background-color:#365C80;
+	margin: 0 0 50px;
+}
+
+p#tag {
+	color: #ccc;
+	margin-bottom:0;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	font-size:12px;
+	}
+
 
 nav#pagination {
-	margin-bottom:10px;
+	margin:10px 0;
 }
 
 figcaption {
@@ -50,18 +54,18 @@ figcaption {
 }
 
 article {
-	margin: 0 0 36px;
+	margin: 36px 0 0;
+	background-color:#FFF;
+	padding: 20px;
+	border: 1px solid #ccc;
+	position:relative;
 }
 
-p#tag {
-	color: #666;
-	margin-bottom:0;
-	}
 
 
 
 
-a {color: #a0221f;}
+a {color: #6D060D;}
 
 /* icon for external links */
 a.external {
@@ -81,12 +85,20 @@ a.external:hover {text-decoration:underline;}
 
 /*.portfolio h3 {border-top: 1px solid #743311;}*/
 
+h1	 {
+		font-family: Copse, Helvetica, Arial, sans-serif;
+	width:640px;
+	letter-spacing:1px;
+	margin:0 auto;
+	font-weight:normal;
+}
+
 h1 a {
-  font-family: Copse, Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #333;
+  color: #eee;
+	display:block;
   text-decoration:none;
-  margin-bottom:0;
+  margin-bottom:5px;
   }
 
 h2, h3, h4 {
@@ -99,11 +111,19 @@ h1 a, h2 a, h3 a  {
 }
 
 
+#bottom {
+	background-color:#F0E3D8;	
+  -webkit-box-shadow: 0px -5px 6px #999; 
+     -moz-box-shadow: 0px -5px 6px #999; 
+          box-shadow: 0px -5px 6px #999;
+}
+
 footer {
-	border-top:1px solid #ccc; 
 	display:block; 
 	padding: 18px;
-	background-color:#eee;
+	width: 640px;
+	margin: 0 auto;
+	color: #000;
 	}
 	
 footer a {
@@ -118,25 +138,20 @@ footer a {
 
 /*BLOG STYLES*/
 
-.hanger {
-	float:left;
-	margin: 2px 0 0 -100px;
+.hanger {	
+    text-shadow: 1px 1px 2px #888; 
+	position:absolute;
+	top: -25px;
+	left: 0;
 	text-align:left;
-	width: 100px;
+	width: 90px;
 	font-size:.9em;
-	line-height:2.1em;
+	line-height:2.1em;	
+	font-family: Copse, Helvetica, Arial, sans-serif;
 }
 
 .hanger a {
-	color:#666;
+	display:block;;
+	color: #333;
 	text-decoration:none;
-}
-
-#linkies {
-	float:right;
-}
-
-#linkies li {
-	display:inline;
-	padding-left:10px;
 }
