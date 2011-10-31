@@ -18,7 +18,7 @@ article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audi
 body{
   background:#fff;
   color:#000;
-  font:85%/1.8em Arial, Helvetica, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;
+  font:90%/1.8em Arial, Helvetica, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;
   position:relative;
 }
 textarea{
@@ -26,6 +26,7 @@ textarea{
 }
 blockquote,q{
   quotes:none;
+  border-left: 2px solid #ccc;
 }
 blockquote:before,blockquote:after,q:before,q:after{
   content:'';content:none;
@@ -53,9 +54,11 @@ abbr,acronym{
 address,cite,em,i{
   font-style:italic;
 }
-blockquote p{
-  margin:0 1.5em 1.5em;
+blockquote p { 
+  margin:0 1.5em 1.5em 0;
   padding:0.75em;
+	color:#333;
+	font-style:italic;
 }
 code,kbd,tt{
   font-family:"Courier New", Courier, monospace, serif;
@@ -91,11 +94,7 @@ h2{
   font-size:1.5em;
   margin:0 0 1em;
 }
-h3{
-  font-size:1.286em;
-  margin:0 0 .333em;
-}
-h4{
+h3, h4 {
   font-size:1.1666em;
   margin:0 0 .5em;
   font-weight:normal;
