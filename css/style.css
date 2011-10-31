@@ -148,6 +148,12 @@ footer a {
 	font-size:.9em;
 }
 
+#newer {
+	float:right;
+}
+
+#older {float: left;}
+
 /*BLOG STYLES*/
 
 .hanger {	

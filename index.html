@@ -27,14 +27,15 @@ title: Home
       {% capture page_url %}page{{ page }}{% endcapture%}
     {% endif %}
     {% if paginator.previous_page %}
-      <a href="/blog/{{ page_url }}" title="Go to previous page">
-        &laquo; newer posts 
+      <a id="newer" href="/blog/{{ page_url }}" title="Go to previous page">
+        newer posts &raquo;
       </a>
     {% endif %}
     {% if paginator.next_page %}
-      <a href="/blog/page{{ paginator.next_page }}" title="Go to next page">
-        older posts &raquo;
+      <a id="older" href="/blog/page{{ paginator.next_page }}" title="Go to next page">
+        &laquo; older posts 
       </a>
     {% endif %}
+<hr class="cleaner" />
 </nav>
 {% endif %}
