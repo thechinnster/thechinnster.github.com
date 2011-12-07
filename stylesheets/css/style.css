@@ -17,6 +17,19 @@ header {
   margin: 0 auto 0 auto;
   padding-bottom: 2em;
 }
+#site-title {
+  position: relative;
+}
+/*#site-title:before {
+	content:'';
+	background:transparent url('/blog/images/bclogo.png') 0 0 no-repeat;
+	width: 55px;
+	height: 55px;
+	position:absolute;
+	top: 0;
+	left: -60px;
+}
+*/
 #top {
   background-color: #365C80;
   margin: 0 0 50px;
@@ -97,7 +110,6 @@ h1 a {
   margin-bottom: 5px;
 }
 h2, h3, h4 {
-  font-family: Bitter, Georgia, Times, sans-serif;
   font-weight: normal;
 }
 h1 a, h2 a, h3 a {
@@ -149,7 +161,6 @@ footer a {
   width: 90px;
   font-size: .9em;
   line-height: 2.1em;
-  font-family: Bitter, Georgia, Times, sans-serif;
 }
 .hanger a {
   display: block;
