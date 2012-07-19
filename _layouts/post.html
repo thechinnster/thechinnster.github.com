@@ -4,10 +4,10 @@ layout: default
 
 <article>
 	<span class='stamp hanger'>
-	  <a href='/blog{{ post.url }}' title="permalink">{{ page.date | date: '%b %e, %Y' }}</a>
+	  <a href='{{ post.url }}' title="permalink">{{ page.date | date: '%b %e, %Y' }}</a>
 	</span>
 	{% if page.link == empty %}
-  	<h2><a href='/blog{{ post.url }}'>{{ page.title }}</a></h2>
+  	<h2><a href='{{ post.url }}'>{{ page.title }}</a></h2>
 	{% else %}
 	<h2><a href='{{ page.link }}'>{{ page.title }}</a></h2>
 	{% endif %}

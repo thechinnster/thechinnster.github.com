@@ -8,14 +8,14 @@ title: Home
 <article>
 	{% if post.link %}
 	<span class='hanger'>
-	  <a href='/blog{{ post.url }}' title="permalink">{{ post.date | date: '%b %e, %Y' }}</a>
+	  <a href='{{ post.url }}' title="permalink">{{ post.date | date: '%b %e, %Y' }}</a>
 	</span>
     <h3><a href='{{ post.link }}'>{{ post.title }}</a></h3>
 	{% else %}
 	<span class='hanger'>
-	  <a href='/blog{{ post.url }}' title="permalink">{{ post.date | date: '%b %e, %Y' }}</a>
+	  <a href='{{ post.url }}' title="permalink">{{ post.date | date: '%b %e, %Y' }}</a>
 	</span>
-	<h2><a href='/blog{{ post.url }}'>{{ post.title }}</a></h2>
+	<h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
 	{% endif %}
     {{ post.content }}
   </article>
@@ -27,12 +27,12 @@ title: Home
       {% capture page_url %}page{{ page }}{% endcapture%}
     {% endif %}
     {% if paginator.previous_page %}
-      <a id="newer" href="/blog/{{ page_url }}" title="Go to previous page">
+      <a id="newer" href="/{{ page_url }}" title="Go to previous page">
         newer posts &raquo;
       </a>
     {% endif %}
     {% if paginator.next_page %}
-      <a id="older" href="/blog/page{{ paginator.next_page }}" title="Go to next page">
+      <a id="older" href="/page{{ paginator.next_page }}" title="Go to next page">
         &laquo; older posts 
       </a>
     {% endif %}
