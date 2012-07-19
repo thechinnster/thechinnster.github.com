@@ -6,7 +6,7 @@ title: Getting into Git
 
 Over the past few weeks I've been overtaken by a strange new obsession. I can't stop thinking about Git, the version control system created by Linus Torvald and used for developing the Linux kernel as well as numerous open source and private software development projects and other other of digital work ([even books](https://github.com/progit/progit "progit" "Progit book project on github")).
 
-## Harder is better
+### Harder is better
 
 One thing I like about got is that it is contains, for me, just the right amount of complexity. The basic operations are fairly simple but there are numerous parameters that can be added, configurations to be customized and advanced methods to be used. I've been researching and using Git for a couple of weeks and feel like I've just scratched the surface. That's one of the reasons I'm attracted to the system: it affords opportunities to learn and gain mastery. 
 
