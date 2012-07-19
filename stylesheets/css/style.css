@@ -2,6 +2,7 @@
 body {
   background-color: #eee;
   margin: 0;
+  font-size: 14px;
   font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif;
 }
 div#container {
@@ -99,20 +100,22 @@ h1 {
   font-family: 'Raleway', Verdana, sans-serif;
   width: 640px;
   letter-spacing: 1px;
-  margin: 0 auto;
   font-weight: normal;
 }
-h1 a {
+#site-title a {
   font-weight: normal;
   color: #eee;
   display: block;
   text-decoration: none;
   margin-bottom: 5px;
 }
-h2, h3, h4 {
+h2,
+h3 {
   font-weight: normal;
 }
-h1 a, h2 a, h3 a {
+h1 a,
+h2 a,
+h3 a {
   text-decoration: none;
   font-weight: normal;
 }
