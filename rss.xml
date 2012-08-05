@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>benchinn.com // Ben Chinn</title>
+    <link>http://benchinn.com/</link>
+    <atom:link href="http://benchinn.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Slightly nerdy ramblings and linkage</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
+
+    {% for post in site.posts %}
+      <item>
+        <title>{{ post.title }}</title>
+        <link>http://benchinn.com{{ post.url }}</link>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+        <author>Ben Chinn</author>
+        <guid>http://benchinn.com{{ post.url }}</guid>
+        <description>{{ post.content | xml_escape }}</description>
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>
