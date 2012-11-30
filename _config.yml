@@ -1,4 +1,4 @@
 paginate: 5
 pygments: true
 baseurl: '/'
-destination: '/Users/bchinn/bloggy'		 
+destination: './_site'
