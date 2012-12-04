@@ -5,27 +5,42 @@ body {
   font: 90%/1.5em "Open Sans", "Lucida Grande", "Lucida Sans", Verdana, sans-serif; }
 
 div#container {
+  width: 640px;
   margin: 0 auto;
-  width: 640px; }
-  @media screen and (max-width: 640px) {
-    div#container {
-      width: 100%; } }
-  @media screen and (min-width: 1024px) {
-    div#container {
-      width: 640px; } }
+  position: relative; }
 
 header {
   position: relative;
   padding-top: 2em;
   color: #ddd;
-  margin: 0 5px 0 5px; }
+  width: 640px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 2em; }
 
 #site-title {
   position: relative; }
 
-.tag {
-  color: #000;
+/*#site-title:before {
+	content:'';
+	background:transparent url('/blog/images/bclogo.png') 0 0 no-repeat;
+	width: 55px;
+	height: 55px;
+	position:absolute;
+	top: 0;
+	left: -60px;
+}
+*/
+#top {
+  background-color: #365C80;
+  margin: 0 0 50px;
+  width: 100%; }
+
+p#tag {
+  color: #ccc;
   margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   font-size: 12px; }
 
 nav#pagination {
@@ -36,8 +51,13 @@ figcaption {
   line-height: 1.5em; }
 
 article {
-  margin: 36px 5px 0 5px;
-  background-color: #FFF; }
+  margin: 36px 0 0;
+  background-color: #FFF;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 4px 4px 6px #999999;
+  -moz-box-shadow: 4px 4px 6px #999999;
+  box-shadow: 4px 4px 6px #999999; }
 
 a {
   color: #6D060D; }
@@ -82,10 +102,11 @@ h1 {
   font-weight: normal; }
 
 #site-title a {
-  color: #365C80;
+  font-weight: normal;
+  color: #eee;
+  display: block;
   text-decoration: none;
-  margin-bottom: 5px;
-  padding-right: 30px; }
+  margin-bottom: 5px; }
 
 h2, h3 {
   font-weight: normal; }
@@ -94,20 +115,30 @@ h1 a, h2 a, h3 a {
   text-decoration: none;
   font-weight: normal; }
 
+#bottom {
+  background-color: #F0E3D8;
+  width: 100%; }
+
 footer {
   display: block;
-  padding: 18px 5px 18px 5px;
+  padding: 18px;
+  width: 640px;
   margin: 0 auto;
-  color: #000;
-  font-size: 70%;
-  line-height: 1.5em; }
+  color: #000; }
 
 footer a {
   font-weight: normal;
   text-decoration: none; }
 
+#footInfo {
+  width: 40%;
+  float: left; }
+
 #footLinks {
-  list-style: none; }
+  float: right;
+  width: 40%;
+  list-style: none;
+  text-align: right; }
 
 #legal {
   text-align: center;
@@ -120,14 +151,19 @@ footer a {
   float: left; }
 
 /*BLOG STYLES*/
-.date {
+.hanger {
+  text-shadow: 1px 1px 2px #888;
+  position: absolute;
+  top: -25px;
+  left: 20px;
   text-align: left;
-  font-size: .7em;
-  margin: -20px 0 20px 0; }
+  width: 90px;
+  font-size: .9em;
+  line-height: 2.1em; }
 
-.date a {
+.hanger a {
   display: block;
-  color: #666;
+  color: #333;
   text-decoration: none; }
 
 hr.cleaner {

@@ -1,54 +1,41 @@
 $headerfont: Bitter, Georgia, Times, sans-serif;
-$articleShadow: 4px 4px 6px #999; 
+$break-small: 640px;
+$break-large: 1024px;
+
+
 
 /*LAYOUT FOO*/
 body {
-	background-color:#eee;
+	background-color:#fff;
 	margin:0;
 	font:90%/1.5em 'Open Sans', 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif;
 }
 
 div#container {
-  width: 640px;
   margin: 0 auto;
-	position:relative;
+  width: 640px;
+  @media screen and (max-width: $break-small) {
+    width: 100%;
   }
+  @media screen and (min-width: $break-large) {
+   width: 640px;		 
+  }
+}
 
 header {
 	position:relative;
 	padding-top:2em;
 	color: #ddd;
-	width: 640px;
-	margin: 0 auto 0 auto;
-	padding-bottom:2em;
+	margin: 0 5px 0 5px;
 }
 
 #site-title {
 	position:relative;
 }
 
-/*#site-title:before {
-	content:'';
-	background:transparent url('/blog/images/bclogo.png') 0 0 no-repeat;
-	width: 55px;
-	height: 55px;
-	position:absolute;
-	top: 0;
-	left: -60px;
-}
-*/
-#top {
-	background-color:#365C80;
-	margin: 0 0 50px;
-	width: 100%;
-}
-
-p#tag {
-	color: #ccc;
+.tag {
+	color: #000;
 	margin-bottom:0;
-	position:absolute;
-	bottom: 0;
-	left: 0;
 	font-size:12px;
 	}
 
@@ -62,13 +49,8 @@ figcaption {
 }
 
 article {
-	margin: 36px 0 0;
+	margin: 36px 5px 0 5px;
 	background-color:#FFF;
-	padding: 20px;
-	position:relative;
-	-webkit-box-shadow: $articleShadow; 
-     -moz-box-shadow: $articleShadow; 
-          box-shadow: $articleShadow;
 }
 
 a {color: #6D060D;}
@@ -99,11 +81,10 @@ h1	 {
 }
 
 #site-title a {
-  font-weight: normal;
-  color: #eee;
-	display:block;
+  color: #365C80;
   text-decoration:none;
   margin-bottom:5px;
+  padding-right: 30px;
   }
 
 h2, h3 {
@@ -115,34 +96,22 @@ h1 a, h2 a, h3 a  {
 	font-weight:normal;
 }
 
-#bottom {
-	background-color:#F0E3D8;	
-	width: 100%;
-}
-
 footer {
 	display:block; 
-	padding: 18px;
-	width: 640px;
+	padding: 18px 5px 18px 5px;
 	margin: 0 auto;
 	color: #000;
+	font-size: 70%;
+	line-height: 1.5em;
 	}
 	
 footer a {
 	font-weight:normal;
 	text-decoration:none;
-}	
-
-#footInfo {
-	width: 40%;
-	float:left;
-}
+}		
 
 #footLinks {
-	float:right;
-	width: 40%;
 	list-style: none;
-	text-align:right;
 }
 
 #legal {
@@ -158,20 +127,16 @@ footer a {
 
 /*BLOG STYLES*/
 
-.hanger {	
-    text-shadow: 1px 1px 2px #888; 
-	position:absolute;
-	top: -25px;
-	left: 20px;
+.date {		
 	text-align:left;
-	width: 90px;
-	font-size:.9em;
-	line-height:2.1em;	
+	font-size:.7em;
+	margin: -20px 0 20px 0;
+
 }
 
-.hanger a {
+.date a {
 	display:block;
-	color: #333;
+	color: #666;
 	text-decoration:none;
 }
 
