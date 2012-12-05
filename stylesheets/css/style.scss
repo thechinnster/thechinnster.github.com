@@ -27,11 +27,20 @@ header {
 	padding-top:2em;
 	color: #ddd;
 	margin: 0 5px 0 5px;
+	border-bottom: 2px solid #ccc; 
 }
 
 #site-title {
 	position:relative;
+	margin-bottom: 18px;
 }
+
+#site-title a {
+  color: #203653;
+  text-decoration:none;
+  margin-bottom:5px;
+  padding-right: 30px;
+  }
 
 .tag {
 	color: #000;
@@ -49,7 +58,7 @@ figcaption {
 }
 
 article {
-	margin: 36px 5px 0 5px;
+	margin: 48px 5px 0 5px;
 	background-color:#FFF;
 }
 
@@ -78,17 +87,12 @@ h1	 {
 	width:640px;
 	letter-spacing:1px;
 	font-weight:normal;
+	color: #203653;
 }
-
-#site-title a {
-  color: #365C80;
-  text-decoration:none;
-  margin-bottom:5px;
-  padding-right: 30px;
-  }
 
 h2, h3 {
 	font-weight:normal;
+	color: #203653;
 }
 
 h1 a, h2 a, h3 a  {  
@@ -101,8 +105,9 @@ footer {
 	padding: 18px 5px 18px 5px;
 	margin: 0 auto;
 	color: #000;
-	font-size: 70%;
+	font-size: 80%;
 	line-height: 1.5em;
+	border-top: 2px solid #ccc;
 	}
 	
 footer a {
