@@ -9,7 +9,7 @@ Brett Terpstra wrote [a nice review](http://feedproxy.google.com/~r/BrettTerpstr
 I'm writing this in Write and it works well enough for me, but I doubt it will be my editor of choice for a couple of reasons:
 
 1. **No landscape orientation**. I often like to type on the iPhone in landscape so that missing feature makes a big difference to me. 
-* **Only saves to a Write directory in Dropbox**. To me the whole beauty of Dropbox is the flexibility and portability of what I save there. If I can't access a file saved by Write in other applications (and vice versa) then I may as well be using iCloud. Why not just let me save in whatever Dropbox directory I want? 
+2. **Only saves to a Write directory in Dropbox**. To me the whole beauty of Dropbox is the flexibility and portability of what I save there. If I can't access a file saved by Write in other applications (and vice versa) then I may as well be using iCloud. Why not just let me save in whatever Dropbox directory I want? 
 
 One other annoyance: when accessing a file I need to press an Edit button to start writing in it. Tapping once on the text to enter editing mode seems more conventional and considerably easier. 
 
