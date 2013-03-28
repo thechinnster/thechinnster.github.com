@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: Quick Thoughts on Day One
