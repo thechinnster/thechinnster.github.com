@@ -4,9 +4,9 @@ layout: default
 
 <article>
 	{% if page.link == empty %}
-  	<h2>{{ page.title }}</h2>
+  	<h2><a href='{{ post.url }}'>{{ page.title }}</a></h2>
 	{% else %}
-	<h2>{{ page.title }}</h2>
+	<h2><a href='{{ page.link }}'>{{ page.title }}</a></h2>
 	{% endif %}
 	<div class='date'>
 	  <a href='{{ post.url }}' title="permalink">&infin; {{ page.date | date: '%b %e, %Y' }}</a>
