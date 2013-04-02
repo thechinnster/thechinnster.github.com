@@ -1,7 +1,7 @@
 ---
 title: Gender Imbalance
 published: true
-layout:post
+layout: post
 ---
 
 In a [guest post](http://brooksreview.net/2013/02/empty/ "The Brooks Review") on The Brooks Review, Pat Dryburgh mentioned that he doesn't regularly follow any blogs by female authors. That got me to thinking, how many women am I following? Suffice it to say the answer is embarrassing. 
