@@ -4,7 +4,7 @@ published: true
 layout:post
 ---
 
-One great thing about git is that branching and merging are cheap. For this reason I create a lot of branches and there's a whole bunch of them sitting around in my repo and on the remote I share with my team. Many of these branches are out of date and useless, cluttering up the repository and making it more difficult to see branches that are still active. I had been deleting these one at a time but figured there had to be a better way. A google search later it was (Stack Overflow)[!g] to the rescue.
+One great thing about git is that branching and merging are cheap. For this reason I create a lot of branches and there's a whole bunch of them sitting around in my repo and on the remote I share with my team. Many of these branches are out of date and useless, cluttering up the repository and making it more difficult to see branches that are still active. I had been deleting these one at a time but figured there had to be a better way. A google search later it was [Stack Overflow](http://stackoverflow.com/ "Stack Overflow") to the rescue.
 
 First I wanted to clean up the remote repository. I found [this SO page](http://stackoverflow.com/questions/10555136/delete-multiple-remote-branches-in-git "bash - Delete multiple remote branches in git - Stack Overflow") that provided the following one-liner:
 
