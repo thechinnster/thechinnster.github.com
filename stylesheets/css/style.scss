@@ -100,6 +100,12 @@ h1 a, h2 a, h3 a  {
 	font-weight:normal;
 }
 
+pre {
+	max-width: 100%;
+	overflow: auto;
+	font-size: 85%;
+}
+
 footer {
 	display:block; 
 	padding: 18px 5px 18px 5px;

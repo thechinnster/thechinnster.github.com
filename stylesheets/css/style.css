@@ -2,7 +2,7 @@
 body {
   background-color: #fff;
   margin: 0;
-  font: 90%/1.5em "Open Sans", "Lucida Grande", "Lucida Sans", Verdana, sans-serif; }
+  font: 90%/1.5em 'Open Sans', 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif; }
 
 div#container {
   margin: 0 auto;
@@ -97,6 +97,11 @@ h2, h3 {
 h1 a, h2 a, h3 a {
   text-decoration: none;
   font-weight: normal; }
+
+pre {
+  max-width: 100%;
+  overflow: auto;
+  font-size: 85%; }
 
 footer {
   display: block;
