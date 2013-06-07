@@ -8,7 +8,7 @@ $break-large: 1024px;
 body {
 	background-color:#fff;
 	margin:0;
-	font:90%/1.5em 'Open Sans', 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif;
+	font:120%/1.5em 'Open Sans', 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif;
 }
 
 div#container {
@@ -120,6 +120,16 @@ footer a {
 	font-weight:normal;
 	text-decoration:none;
 }		
+
+blockquote {
+border-left: 2px solid #ddd;
+color: #444;
+}
+
+blockquote p {
+	padding-top: 0;
+	padding-bottom: 0;
+}
 
 #footLinks {
 	list-style: none;
