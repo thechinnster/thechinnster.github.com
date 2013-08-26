@@ -14,7 +14,7 @@ Just replace PREFIX with the appropriate string and the matching branches will b
 
 Then I needed to remove outdated local branches as well. Another line (given in [another SO thread](http://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git "Can you delete multiple branches in one command with Git? - Stack Overflow")) will take care of that:
 
-    git for-each-ref --format="%(refname:short)" refs/heads/3.2\* | xargs git branch -D
+    git for-each-ref --format="%(refname:short)" refs/heads/PREFIX\* | xargs git branch -D
 
 Now my local and remote repositories are cleaned up in minutes and I can do this easily again when it gets messy. Sweet!
 
