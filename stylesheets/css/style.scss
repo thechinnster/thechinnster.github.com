@@ -26,7 +26,7 @@ header {
 	position:relative;
 	padding-top:2em;
 	color: #ddd;
-	margin: 0 5px 0 5px;
+	margin: 0 5px 48px 5px;
 	border-bottom: 2px solid #ccc; 
 }
 
@@ -52,8 +52,13 @@ nav#pagination {
 	margin:10px 0;
 }
 
+figure img {
+	max-width: 100%;
+}
+
 figcaption {
-	font-size:90%;
+	font-size:85%;
+	color: #ccc;
 	line-height: 1.5em;
 }
 
@@ -148,6 +153,11 @@ blockquote p {
 
 /*BLOG STYLES*/
 
+.archive-post-time {
+	padding-right: 10px;
+	color: #444;
+}
+
 .date {		
 	text-align:left;
 	font-size:.7em;
@@ -157,7 +167,7 @@ blockquote p {
 
 .date a {
 	display:block;
-	color: #666;
+	color: #444;
 	text-decoration:none;
 }
 
