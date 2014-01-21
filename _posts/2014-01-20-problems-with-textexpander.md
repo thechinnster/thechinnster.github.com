@@ -20,4 +20,4 @@ I can only hope that all these issues get worked out soon. TextExpander was a ga
 [3]: http://omz-software.com/editorial/
 [4]: http://getwritingkit.com/
 [5]: http://bywordapp.com/
-[6]: http://developers.app.net/docs/resources/post/
+[6]: https://alpha.app.net/zero/post/20168670
