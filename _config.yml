@@ -2,4 +2,4 @@ paginate: 5
 pygments: true
 baseurl: '/'
 destination: './_site'
-markdown: rdiscount
+markdown: maruku
