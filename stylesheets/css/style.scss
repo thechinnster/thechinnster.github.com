@@ -1,5 +1,6 @@
 $headerfont: Bitter, Georgia, Times, sans-serif;
-$break-small: 640px;
+$break-small: 320px;
+$break-medium: 640px;
 $break-large: 1024px;
 
 
@@ -15,7 +16,10 @@ div#container {
   margin: 0 auto;
   width: 640px;
   @media screen and (max-width: $break-small) {
-    width: 100%;
+    width: 320px;
+  }
+  @media screen and (max-width: $break-medium) {
+    width: 640px;
   }
   @media screen and (min-width: $break-large) {
    width: 640px;		 
