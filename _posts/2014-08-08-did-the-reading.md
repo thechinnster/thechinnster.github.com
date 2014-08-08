@@ -12,11 +12,11 @@ Even a mediocre book can be rewarding or educational. My guess is that writing a
 With this in mind I present a hierarchy of text media, from least useful to most valuable. 
 
 1. Facebook updates
-* Tweets
-* App.net Posts
-* Blog Posts
-* Magazine Articles
-* Newspaper Articles
-* Books
+2. Tweets
+3. App.net Posts
+4. Blog Posts
+5. Magazine Articles
+6. Newspaper Articles
+7. Books
 
 Even though they are the oldest technology in the list, books still offer the best word for word value. 
