@@ -3,8 +3,6 @@ layout: post
 published: true
 title: Do The Reading 
 ---
-# The Hierarchy of Reading
-
 This has been widely quoted but only came through my transom recently: when asked how he got so smart David Foster Wallace replied "I did the reading". The more you read the smarter you are: simple but true, doubly so if your reading challenges your assumptions, takes you where you've never been and teaches you something without without feeling like a chore. There's thousands of those opportunities around, in every bookshop and library, a click away if you're not into the whole brick and mortar thing.  
 
 I'm ashamed to say I don't read enough, sometimes even going for long stretches of time without cracking a book at all. Then a book will hook me and I'll start devouring pages again as if literacy were a new experience.   
