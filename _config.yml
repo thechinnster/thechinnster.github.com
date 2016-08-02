@@ -1,5 +1,5 @@
 paginate: 5
-highlighter: 'pygments'
+highlighter: 'rouge'
 baseurl: '/'
 destination: './_site'
 markdown: kramdown
