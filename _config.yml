@@ -1,7 +1,8 @@
 paginate: 5
-pygments: true
+highlighter: 'pygments'
 baseurl: '/'
 destination: './_site'
 markdown: kramdown
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
