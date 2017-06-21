@@ -3,6 +3,6 @@ highlighter: 'rouge'
 baseurl: '/'
 destination: './_site'
 markdown: kramdown
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-paginate
