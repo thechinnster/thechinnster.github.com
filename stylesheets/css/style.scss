@@ -16,13 +16,13 @@ div#container {
   margin: 0 auto;
   width: 640px;
   @media screen and (max-width: $break-small) {
-    width: 320px;
+    width: 90%;
   }
   @media screen and (max-width: $break-medium) {
     width: 640px;
   }
   @media screen and (min-width: $break-large) {
-   width: 640px;		 
+   width: 640px;
   }
 }
 
@@ -31,7 +31,7 @@ header {
 	padding-top:2em;
 	color: #ddd;
 	margin: 0 5px 48px 5px;
-	border-bottom: 2px solid #ccc; 
+	border-bottom: 2px solid #ccc;
 }
 
 #site-title {
@@ -76,7 +76,7 @@ a {color: #6D060D;}
 /* icon for external links */
 a.external {
 	background: transparent url('../images/Portfolio/Icon_External_Link.png') left no-repeat;
-	padding-left: 15px;		
+	padding-left: 15px;
 	text-decoration:none;
 }
 
@@ -104,7 +104,7 @@ h2, h3 {
 	color: #203653;
 }
 
-h1 a, h2 a, h3 a  {  
+h1 a, h2 a, h3 a  {
 	text-decoration:none;
 	font-weight:normal;
 }
@@ -120,7 +120,7 @@ pre {
 }
 
 footer {
-	display:block; 
+	display:block;
 	padding: 18px 5px 18px 5px;
 	margin: 0 auto;
 	color: #000;
@@ -128,11 +128,11 @@ footer {
 	line-height: 1.5em;
 	border-top: 2px solid #ccc;
 	}
-	
+
 footer a {
 	font-weight:normal;
 	text-decoration:none;
-}		
+}
 
 blockquote {
 border-left: 2px solid #ddd;
@@ -166,7 +166,7 @@ blockquote p {
 	color: #444;
 }
 
-.date {		
+.date {
 	text-align:left;
 	font-size:.7em;
 	margin: -20px 0 20px 0;
